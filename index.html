@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pintar Play - Fuel Your Brain with Fun</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            font-style: italic;
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #2ECC71;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .feature-box {
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #28a745;
+            border-radius: 10px;
+            background-color: white;
+            max-width: 800px;
+            text-align: left;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #28a745;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #28a745;
+            color: white;
+        }
+        footer {
+            background-color: #2ECC71;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .form-box {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #28a745;
+            background-color: white;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form-box input, .form-box textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #28a745;
+            border-radius: 5px;
+        }
+        .form-box input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+        .form-box input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        .buy-now {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .buy-now:hover {
+            background-color: #218838;
+        }
+        .buy-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .buy-section div {
+            width: 45%;
+        }
+        .table-select td {
+            cursor: pointer;
+        }
+        .table-select td:hover {
+            background-color: #e9f7e6;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Pintar Play</h1>
+        <p>Fuel Your Brain with Fun</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#penjelasan">Tentang</a>
+        <a href="#fitur">Fitur</a>
+        <a href="#soal">Soal</a>
+        <a href="#pembelian">Pembelian</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <!-- Container -->
+    <div class="container">
+        <!-- Penjelasan -->
+        <section id="penjelasan">
+            <h2>Selamat Datang di Pintar Play!</h2>
+            <p>Pintar Play adalah platform game edukasi interaktif berbasis kuis yang bertujuan untuk meningkatkan pembelajaran melalui cara yang menyenangkan dan menarik. Ditujukan untuk siswa dari tingkat SD hingga SMA dan mahasiswa, karena menawarkan materi pembelajaran dalam berbagai bentuk soal yang tidak membosankan. Pintar Play tersedia di platform mobile (Android dan iOS), memudahkan belajar kapan saja dan di mana saja.</p>
+        </section>
+
+        <!-- Fitur -->
+        <section id="fitur">
+            <h2>Fitur Kami</h2>
+            <div class="feature-box">
+                <ul>
+                    <li>🎮 Game Animasi</li>
+                    <li>🎯 Mode Game</li>
+                    <li>📷 Soal dalam Penggunaan Link, Foto, dan Video</li>
+                    <li>📝 Jenis Bentuk Soal Beragam</li>
+                    <li>🎵 Pilihan Musik</li>
+                    <li>🏆 Papan Tabel dan Peringkat</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Soal -->
+        <section id="soal">
+            <h2>Coba Soal</h2>
+            <p>Klik tombol di bawah ini untuk mulai mengerjakan soal:</p>
+            <a href="https://app.quizwhizzer.com/play?code=62820" target="_blank" class="btn">Kerjakan Soal</a>
+        </section>
+
+        <!-- Pembelian -->
+        <section id="pembelian">
+            <h2>Pembelian Paket</h2>
+            <div class="buy-section">
+                <div>
+                    <h3>Nominal Pembelian</h3>
+                    <table class="table-select">
+                        <thead>
+                            <tr>
+                                <th>Jenis Paket</th>
+                                <th>Harga</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Paket Quiz Tambahan</td>
+                                <td>Rp 5.000 - Rp 10.000</td>
+                            </tr>
+                            <tr>
+                                <td>Tema Baru</td>
+                                <td>Rp 10.000 - Rp 15.000</td>
+                            </tr>
+                            <tr>
+                                <td>Materi Pembelajaran Tambahan</td>
+                                <td>Rp 15.000 - Rp 20.000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <h3>Via Pembayaran</h3>
+                    <table class="table-select">
+                        <thead>
+                            <tr>
+                                <th>Metode Pembayaran</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>BCA</td>
+                            </tr>
+                            <tr>
+                                <td>BRI</td>
+                            </tr>
+                            <tr>
+                                <td>BNI</td>
+                            </tr>
+                            <tr>
+                                <td>ShopeePay</td>
+                            </tr>
+                            <tr>
+                                <td>Dana</td>
+                            </tr>
+                            <tr>
+                                <td>QRIS</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Buy Now Button -->
+            <a href="#form" class="buy-now">Beli Sekarang</a>
+        </section>
+
+        <!-- Form Pembelian -->
+        <section id="form">
+            <h3>Isi Detail Pembelian Anda</h3>
+            <div class="form-box">
+                <form action="#" method="POST">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <input type="submit" value="Kirim Pembelian">
+                </form>
+            </div>
+        </section>
+
+        <!-- Kontak -->
+        <section id="kontak">
+            <h2>Hubungi Kami</h2>
+            <p>Email: <a href="mailto:support@pintarplay.com">support@pintarplay.com</a></p>
+            <p>WhatsApp: <a href="https://wa.me/085600299478">085600299478</a></p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pintar Play. Semua hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html>
